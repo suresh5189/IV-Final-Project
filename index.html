@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="candiv">
+			<canvas id="can1"></canvas>
+		</div>
+    <div class="bars" id="nav-action">
+      <span class="bar"> </span>
+    </div>
+    <nav id="nav">
+      <ul>
+        <li class="shape-circle circle-one"><a href="#">Contact</a></li>
+        <li class="shape-circle circle-two"><a href="#">Blog</a></li>
+        <li class="shape-circle circle-three"><a href="#">Work</a></li>
+        <li class="shape-circle circle-five">
+          <a href="#">Home</a>
+        </li>
+      </ul>
+    </nav>
+    <!--Main Body Content-->
+    <article class="container">
+      <h1>18CSE301J</h1>
+      <h3>Project Name : Amazon Sales Data Analytic</h3>
+    </article>
+    <br />
+    <br />
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="tableau">
+      <div class='tableauPlaceholder' id='viz1684216341236' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Am&#47;AmazonSalesinIndia_16841808484770&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='AmazonSalesinIndia_16841808484770&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Am&#47;AmazonSalesinIndia_16841808484770&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1684216341236');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1600px';vizElement.style.height='1077px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1600px';vizElement.style.height='1077px';} else { vizElement.style.width='100%';vizElement.style.height='3527px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      <script type="text/javascript">
+        var divElement = document.getElementById("viz1684180875026");
+        var vizElement = divElement.getElementsByTagName("object")[0];
+        if (divElement.offsetWidth > 800) {
+          vizElement.style.width = "1850px";
+          vizElement.style.height = "1077px";
+        } else if (divElement.offsetWidth > 500) {
+          vizElement.style.width = "1850px";
+          vizElement.style.height = "1077px";
+        } else {
+          vizElement.style.width = "100%";
+          vizElement.style.height = "3377px";
+        }
+        var scriptElement = document.createElement("script");
+        scriptElement.src =
+          "https://public.tableau.com/javascripts/api/viz_v1.js";
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+      </script>
+    </div>
+    <br />
+    <br />
+    <div class="about">
+      <h1>DASHBOARD OVERVIEW</h1>
+      <div class="para1">
+        <p>
+          I created an Amazon sales dashboard using Tableau that is designed to
+          help us understand how our sales are trending over time and which
+          products are driving the most revenue. The data for the dashboard
+          comes directly from our Amazon sales database and is updated daily.
+          The dashboard includes several visualizations that are designed to
+          help us understand different aspects of our sales performance. The
+          primary visualization is a line chart that shows sales by week over
+          the past three months. This chart allows us to see how our sales are
+          changing over time and identify any trends or patterns. We're also
+          using a stacked bar chart to show sales by product category. This
+          chart allows us to see which product categories are driving the most
+          revenue and how that revenue is distributed across different
+          categories. The key metrics displayed in the dashboard are total
+          sales, sales by week, and sales by product category. These metrics are
+          important because they help us understand how our sales are changing
+          over time and which products are driving the most revenue. Users can
+          interact with the dashboard by filtering the data by date range or
+          product category. They can also hover over data points to see more
+          details. The dashboard is designed for executives who need a
+          high-level view of sales performance, as well as for sales managers
+          who need to drill down into specific product categories. By using the
+          dashboard, we can gain several key insights into our sales
+          performance. For example, we can see that sales have been trending
+          upward over the past month and that our top-performing product
+          categories are electronics and home goods. This information can be
+          used to make decisions about inventory and marketing campaigns.
+          Overall, the dashboard provides a valuable tool for monitoring our
+          Amazon sales and making data-driven decisions.
+        </p>
+        <br />
+        <p>
+          An Amazon sales dataset refers to a collection of data related to the
+          sales of products on Amazon's online marketplace. This dataset
+          typically contains a wealth of information related to the products,
+          sales, and customers on the platform, which can be used for various
+          analyses and insights.
+        </p>
+      </div>
+      <br />
+      <br />
+      <h3 style="font-family: 'Bruno Ace SC', cursive">Week and Quantity</h3>
+      <br />
+      <div class="class1">
+        <br />
+        <p style="margin: 20px; line-height: 27px">
+          The "Quantity by week and Category" sheet in the dashboard provides a
+          detailed breakdown of the quantity of products sold by week and
+          product category. This sheet is useful for identifying which product
+          categories are performing well or poorly, as well as how sales trends
+          are changing over time. The sheet is designed to be interactive,
+          allowing users to filter the data by week or product category. This
+          enables users to quickly drill down into specific time periods or
+          product categories to gain deeper insights into sales performance. The
+          sheet includes several visualizations, including a stacked bar chart
+          and a line chart. The stacked bar chart shows the breakdown of sales
+          by product category for each week, allowing users to quickly identify
+          which categories are driving the most sales. The line chart shows the
+          trend in quantity sold over time, allowing users to see how sales are
+          changing week over week.
+        </p>
+        <p>
+          <img src="./images/1.png" alt="" />
+        </p>
+      </div>
+      <br />
+      <br />
+      <h3 style="font-family: 'Bruno Ace SC', cursive">
+        Quantity by Status and Category
+      </h3>
+      <br />
+      <div class="class2">
+        <p>
+          <img src="./images/2.png" alt="" />
+        </p>
+        <p style="margin: 20px; line-height: 27px">
+          The "Quantity by Status and Category" sheet in the dashboard provides
+          a breakdown of the quantity of products sold by order status and
+          product category. This sheet is useful for identifying which product
+          categories are driving the most sales for different order statuses,
+          such as shipped, pending, or cancelled. The sheet is designed to be
+          interactive, allowing users to filter the data by product category or
+          order status. This enables users to quickly drill down into specific
+          categories or order statuses to gain deeper insights into sales
+          performance.
+        </p>
+      </div>
+      <br />
+      <br />
+      <h3 style="font-family: 'Bruno Ace SC', cursive">
+        Top 10 States by Quantity and Category - Ship service-Level
+      </h3>
+      <br />
+      <div class="class3">
+        <p style="margin: 20px; line-height: 25px">
+          The "Quantity by Top 10 States by Quantity and Category - Ship
+          service-Level" sheet in the dashboard provides a breakdown of the
+          quantity of products sold by top 10 states, product category, and
+          shipping service level. This sheet is useful for identifying which
+          states are driving the most sales, which categories are most popular
+          in those states, and which shipping service levels are preferred by
+          customers in those states. The sheet is designed to be interactive,
+          allowing users to filter the data by product category, shipping
+          service level, or specific states. This enables users to quickly drill
+          down into specific categories, shipping service levels or states to
+          gain deeper insights into sales performance. The sheet includes
+          several visualizations, including a map, stacked bar chart, and tree
+          map. The map shows the total quantity of products sold in each state,
+          allowing users to quickly identify which states are driving the most
+          sales. The stacked bar chart shows the breakdown of sales by product
+          category and shipping service level for each state, allowing users to
+          identify which categories and shipping service levels are driving
+          sales in specific states. The tree map provides an overview of sales
+          performance by category and state, allowing users to easily compare
+          sales across categories and states.
+        </p>
+        <p>
+          <img src="./images/3.png" alt="" />
+        </p>
+      </div>
+      <br />
+      <br />
+      <h3 style="font-family: 'Bruno Ace SC', cursive">
+        Amount by week and category
+      </h3>
+      <br />
+      <div class="class4">
+        <br />
+        <p>
+          <img src="./images/4.png" alt="" />
+        </p>
+        <p style="margin: 20px; line-height: 27px">
+          The "Amount by Week and Category" sheet in the dashboard provides a
+          breakdown of the amount of revenue generated by product category and
+          week. This sheet is useful for identifying which product categories
+          are driving the most revenue and how revenue is changing over time.
+          The sheet is designed to be interactive, allowing users to filter the
+          data by product category or week. This enables users to quickly drill
+          down into specific categories or weeks to gain deeper insights into
+          revenue performance. The sheet includes several visualizations,
+          including a line chart and a stacked bar chart. The line chart shows
+          the trend in revenue over time, allowing users to identify any
+          patterns or trends in revenue growth or decline. The stacked bar chart
+          shows the breakdown of revenue by product category and week, allowing
+          users to identify which categories are driving the most revenue and
+          how revenue is distributed across different weeks.
+        </p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
